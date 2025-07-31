@@ -1,13 +1,330 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Exam-CV</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="header">
+      <div class="header__button">
+        <a href="#" class="header__link sticky-button ripple-element">
+          Save to PDF
+        </a>
+      </div>
+    </header>
+    <main class="resume">
+      <div class="resume__container">
+        <section class="photo"></section>
+        <section class="info cell">
+          <span class="editable" contenteditable="true">Hello 👋🏻 I’m</span>
+          <div class="info__container">
+            <span class="info__name editable" contenteditable="true"
+              >Karthik SR</span
+            >
+            <span class="info__profi editable" contenteditable="true"
+              >UX/UI Designer</span
+            >
+          </div>
+        </section>
+      </div>
+
+      <section class="languages cell">
+        <h3 class="editable" contenteditable="true">Languages</h3>
+        <div class="languages__container">
+          <div class="languages__name">
+            <span class="editable" contenteditable="true">English</span>
+            <span class="editable" contenteditable="true">Malayalam</span>
+            <span class="editable" contenteditable="true">Hindi</span>
+          </div>
+          <div class="languages__progress">
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience cell">
+        <h3 class="editable" contenteditable="true">Experience</h3>
+        <div class="experience__container">
+          <article class="job recent">
+            <div class="job__date">
+              <span class="editable" contenteditable="true"
+                >Jun. 2023 - Present</span
+              >
+              <div class="job__recent">
+                <span class="editable" contenteditable="true">most recent</span>
+              </div>
+            </div>
+            <div class="job__info">
+              <div class="job__title">
+                <h4 class="job__name editable" contenteditable="true">
+                  Marketing Manager
+                </h4>
+                <span
+                  class="job__subtitle recent-subtitle editable"
+                  contenteditable="true"
+                  >Pankayam | Full-time</span
+                >
+              </div>
+              <ul class="job__content">
+                <li class="item item-white editable" contenteditable="true">
+                  Strategy development and planning of campaigns that promote
+                  the business and generate genuine traffic
+                </li>
+                <li class="item item-white editable" contenteditable="true">
+                  SEO Content Creation for Blogs, Website, Social media
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job__date">
+              <span class="editable" contenteditable="true"
+                >2017 - Present</span
+              >
+            </div>
+            <div class="job__info">
+              <div class="job__title">
+                <h4 class="job__name editable" contenteditable="true">
+                  Graphic / Web designer
+                </h4>
+                <span class="job__subtitle editable" contenteditable="true"
+                  >Freelance</span
+                >
+              </div>
+              <ul class="job__content">
+                <li class="item editable" contenteditable="true">
+                  Development of internal projects from scratch, product design
+                  of brands
+                </li>
+                <li class="item editable" contenteditable="true">
+                  Landing page, webapps and hybrid apps
+                </li>
+                <li class="item editable" contenteditable="true">
+                  Coordinating with outside agencies, art services, web
+                  designer, marketing, printers, and colleagues as necessary.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job__date">
+              <span class="editable" contenteditable="true"
+                >Sep. 2021 - Jun. 2023</span
+              >
+            </div>
+            <div class="job__info">
+              <div class="job__title">
+                <h4 class="job__name editable" contenteditable="true">
+                  Legal Assistant
+                </h4>
+                <span class="job__subtitle editable" contenteditable="true"
+                  >Law Firm | Intern</span
+                >
+              </div>
+              <ul class="job__content">
+                <li class="item editable" contenteditable="true">
+                  Provide administrative support to lawyer and enhance office
+                  effectiveness
+                </li>
+                <li class="item editable" contenteditable="true">
+                  Handle communication with clients, witnesses etc.
+                </li>
+                <li class="item editable" contenteditable="true">
+                  repare case briefs and summarize depositions, interrogatories
+                  and testimony
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="tools">
+        <h3 class="editable" contenteditable="true">Tools</h3>
+        <div class="tools__container">
+          <div class="tools__content">
+            <div class="tools__name">
+              <span>design</span>
+            </div>
+            <div class="tools__image">
+              <img src="/img/logoFigma.svg" alt="logoFigma" />
+              <img src="/img/LogoPs.svg" alt="LogoPs" />
+              <img src="/img/LogoAi.svg" alt="LogoAi" />
+              <img src="/img/LogoPr.svg" alt="LogoPr" />
+              <img src="/img/logoNotion.svg" alt="logoNotion." />
+              <img src="/img/logoMeet.svg" alt="logoMeet" />
+            </div>
+          </div>
+
+          <div class="tools__content">
+            <div class="tools__name">
+              <span>no-code</span>
+            </div>
+            <div class="tools__image">
+              <img src="/img/logoZapier.svg" alt="logoZapier" />
+              <img src="/img/logoWebflow.svg" alt="logoWebflow" />
+              <img src="/img/logoFramer.svg" alt="logoFramer" />
+              <img src="/img/logoWordpress.svg" alt="logoWordpress" />
+            </div>
+          </div>
+          <div class="tools__content">
+            <div class="tools__name">
+              <span>artoficial intelligence</span>
+            </div>
+
+            <div class="tools__image">
+              <img src="/img/logoChatGPT.svg" alt="logoChatGPT" />
+              <img src="/img/logoCopilot.svg" alt="logoCopilot" />
+              <img
+                class="image-right"
+                src="/img/logoMidjourney.svg"
+                alt="logoMidjourney"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="education cell">
+        <h3 class="editable" contenteditable="true">Education</h3>
+        <div class="education__cards">
+          <div class="card card-green">
+            <div class="card__container">
+              <span class="card__date editable" contenteditable="true"
+                >2023</span
+              >
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.75 0.807373C1.99375 0.807373 1.32 1.12388 0.81125 1.61929C0.31625 2.1147 0 2.78901 0 3.55965C0 4.31653 0.31625 4.99083 0.81125 5.5L5.5 10.1926L10.1887 5.5C10.6838 5.0046 11 4.33029 11 3.55965C11 2.80277 10.6838 2.12847 10.1887 1.61929C9.69375 1.12388 9.02 0.807373 8.25 0.807373C7.49375 0.807373 6.82 1.12388 6.31125 1.61929C5.81625 2.1147 5.5 2.78901 5.5 3.55965C5.5 2.80277 5.18375 2.12847 4.68875 1.61929C4.19375 1.12388 3.52 0.807373 2.75 0.807373Z"
+                  fill="#F6ED1E"
+                />
+              </svg>
+            </div>
+            <div class="card__content">
+              <span class="content__name editable" contenteditable="true">
+                UI/UX</span
+              >
+              <span
+                class="content__tag content__tag-active editable"
+                contenteditable="true"
+                >#UX #UI #research #DesignSystem #Ui #wireframing #figma #Ux
+              </span>
+            </div>
+            <span class="content__place editable" contenteditable="true"
+              >Coursera</span
+            >
+          </div>
+
+          <div class="card">
+            <div class="card__container">
+              <span class="card__date editable" contenteditable="true"
+                >2017-2022</span
+              >
+            </div>
+            <div class="card__content">
+              <span class="content__name editable" contenteditable="true">
+                Law</span
+              >
+              <span class="content__tag editable" contenteditable="true"
+                >#law #legalStudies #contracts #internationalLaws</span
+              >
+            </div>
+            <span class="content__place editable" contenteditable="true"
+              >University of Kerala</span
+            >
+          </div>
+
+          <div class="card">
+            <div class="card__container">
+              <span class="card__date editable" contenteditable="true"
+                >2017</span
+              >
+            </div>
+            <div class="card__content">
+              <span class="content__name editable" contenteditable="true">
+                Graphic design</span
+              >
+              <span class="content__tag editable" contenteditable="true">
+                #branding #web #illustration #adobe</span
+              >
+            </div>
+            <span class="content__place editable" contenteditable="true"
+              >Coursera</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="resume__wrapper">
+        <section class="interests cell">
+          <h3 class="editable" contenteditable="true">Interests</h3>
+          <div class="interests__box">
+            <div class="interest">
+              <span class="editable" contenteditable="true">branding</span>
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true">design</span>
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true">photography</span>
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true"
+                >artificial intelligence</span
+              >
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true">illustration</span>
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true">typography</span>
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true"
+                >social networks</span
+              >
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true">research</span>
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true">dron pilot</span>
+            </div>
+            <div class="interest">
+              <span class="editable" contenteditable="true">games</span>
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <h3 class="contact__title editable" contenteditable="true">
+            Let´s chat! I´m ready to work on excinting projects
+          </h3>
+          <a
+            class="contact__email editable"
+            href="mailto:srkarthik.designscape@gmail.com"
+            contenteditable="true"
+            >srkarthik.designscape@gmail.com</a
+          >
+        </section>
+      </div>
+    </main>
     <script type="module" src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   </body>
 </html>
