@@ -1,3 +1,4 @@
+const html2pdf = window.html2pdf;
 export function setupPDFDownload() {
   const btn = document.querySelector(".header__link");
   btn.addEventListener("click", (e) => {
