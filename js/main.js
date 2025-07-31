@@ -19,4 +19,4 @@ loadEditableFields();
 
 turnOnRippleAnimation();
 
-// setupPDFDownload();
+setupPDFDownload();

@@ -6,7 +6,7 @@
 
 ### Результат:
 
-[Готовый проект на GitHub Pages]()
+[Готовый проект на GitHub Pages](https://romandarmosyuk.github.io/front-end-entrance-exam/#)
 
 **Что сделано:**
 
